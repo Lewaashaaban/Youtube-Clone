@@ -8,17 +8,19 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="flex justify-between items-center px-14 h-14 bg-[#212121] opacity-95 sticky top-0 z-50">
-      <div className="flex gap-8 items-center text-2x1">
+      <div className="flex gap-8 items-center text-2xl">
         <div>
           <GiHamburgerMenu />
         </div>
         <Link to="/">
-          <div className="flex gap-1 items-center jusstify-center">
+          <div className="text-2xl flex gap-1 items-center jusstify-center">
             <BsYoutube className="text-3x1 text-red-600 " />
-            <span className="text-xl font-medium text-white ">Youtube</span>
+            <div>
+              <span className=" font-medium text-white">Youtube</span>
+            </div>
           </div>
         </Link>
-      </div>
+      </div>text-2xl
       <div className="flex items-center justify-center gap-5">
         <form action="">
           <div className="flex bg-zinc-900 items-center h-10 px-4 pr-0">
