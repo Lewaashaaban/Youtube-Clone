@@ -173,18 +173,9 @@ export default function Sidebar() {
           );
         })}
       </ul>
-      <ul className="flex gap-2 flex-wrap text-sm p-4 text-zinc-400">
-        {textLinks[0].map((name) => {
-          return <li key={name}>{name}</li>;
-        })}
-      </ul>
-      <ul className="flex gap-2 flex-wrap text-sm p-4 text-zinc-400">
-        {textLinks[1].map((name) => {
-          return <li key={name}>{name}</li>;
-        })}
-      </ul>
+      
 
-      <span className="px-4 text-sm text-zinc-400">&copy; 2022 Google</span>
+      
       <br />
       <p className="px-4 pt-3 text-sm text-zinc-400">
         This Clone is done by l.e.w.a.a
